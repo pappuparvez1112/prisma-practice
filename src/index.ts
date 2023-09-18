@@ -1,6 +1,6 @@
 import app from "./app";
 
-const port = process.env.port || 3003;
+const port = process.env.port || 5000;
 
 async function main() {
   app.listen(port, () => {
